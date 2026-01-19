@@ -29,3 +29,21 @@ This project includes **Docker support**, **CI-ready workflow**, and **Linux-bas
 
 ## 📁 Project Structure
 
+## 🚀 How to Run (Using Docker)
+
+### Prerequisites
+- Docker
+
+### Steps
+```bash
+git clone https://github.com/USERNAME/NetCoreJwtAuthApi.git
+cd NetCoreJwtAuthApi
+docker build -t netcore-jwt-api .
+docker run -p 8080:8080 \
+-e Jwt__Key="YOUR_SECRET_KEY" \
+-e Jwt__Issuer="NetCoreJwtAuthApi" \
+netcore-jwt-api
+
+Open in browser:
+http://localhost:8080/swagger
+
