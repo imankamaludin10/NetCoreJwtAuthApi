@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="NetCoreJwtAuthApi.Tests/NetCoreJwtAuthApi.Tests.csproj" Id="271dd301-3036-4808-8442-ca4df21fee63" />
+  <Project Path="NetCoreJwtAuthApi/NetCoreJwtAuthApi.csproj" />
+</Solution>
